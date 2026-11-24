@@ -10658,7 +10658,7 @@ static int
 check_pmu_supported(const char *evt)
 {
 	pfm_pmu_info_t info;
-	char *p;
+	const char *p;
 	int ret;
 	pfm_pmu_t i;
 
