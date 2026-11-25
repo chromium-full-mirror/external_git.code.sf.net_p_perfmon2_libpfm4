@@ -2501,7 +2501,7 @@ static const intel_x86_entry_t intel_gnr_pe[]={
     .modmsk = INTEL_V5_ATTRS,
     .cntmsk = 0xffull,
     .ngrp   = 1,
-    .flags  = INTEL_X86_SPEC | INTEL_X86_NHM_OFFCORE,
+    .flags  = INTEL_X86_SPEC,
     .numasks= LIBPFM_ARRAY_SIZE(intel_gnr_exe),
     .umasks = intel_gnr_exe,
   },
